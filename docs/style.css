@@ -31,6 +31,10 @@
     color: var(--text_col);
 }
 
+.title-anchor {
+    text-decoration: none;
+}
+
 #main-content-window {
     padding-left: 5%;
     animation: appear-with-builtin-delay 2s linear;
@@ -68,7 +72,6 @@
 .nav-div:hover > .nav-label {
     color: var(--lavender_col);
     text-shadow: 0 0 10px #fff, 0 0 30px var(--lavender_col), 0 0 50px var(--mauve_col);
-
 }
 
 .blinks {
