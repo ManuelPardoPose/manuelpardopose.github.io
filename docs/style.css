@@ -35,6 +35,10 @@
     text-decoration: none;
 }
 
+.title-anchor:hover .title-text {
+    text-shadow: 0 0 10px var(--sky_col), 0 0 30px var(--lavender_col);
+}
+
 #main-content-window {
     padding-left: 5%;
     animation: appear-with-builtin-delay 1s linear;
