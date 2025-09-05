@@ -56,9 +56,17 @@
     font-family: "Andale Mono", monospace;
 }
 
+.nav-label-discoverable {
+    padding-left: 1%;
+    color: var(--lavender_col);
+    font-size: x-large;
+    font-family: "Andale Mono", monospace;
+    opacity: 0;
+}
+
 .nav-marker {
     padding-left: 1%;
-    color: var(--mauve_col);
+    color: var(--lavender_col);
     font-size: x-large;
     font-family: "Andale Mono", monospace;
     opacity: 0;
@@ -71,7 +79,10 @@
 
 .nav-div:hover > .nav-marker {
     animation: blink 1s linear infinite;
-    color: var(--lavender_col);
+}
+.nav-div:hover > .nav-label-discoverable {
+    animation: appear 0.4s linear;
+    opacity: 1;
 }
 .nav-div:hover > .nav-label {
     color: var(--lavender_col);
